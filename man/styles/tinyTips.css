@@ -1,0 +1,100 @@
+
+
+
+
+
+@charset "utf-8";
+
+
+#polo 
+{
+position: relative;
+width: 600px;
+height: 630px;
+margin: 0 auto;
+}
+
+#polo img
+{
+position: relative;
+width: 600px;
+height: auto;
+}
+
+#atip
+{
+position: absolute;
+margin-left: 510px;
+margin-top: 600px;
+z-index: 9999;
+}
+
+#btip
+{
+position: absolute;
+margin-left: 270px;
+margin-top: 190px;
+z-index: 9999;
+}
+
+#ctip
+{
+position: absolute;
+margin-left: 340px;
+margin-top: 330px;
+z-index: 9999;
+}
+
+#dtip
+{
+position: absolute;
+margin-left: 320px;
+margin-top: 500px;
+z-index: 9999;
+}
+
+#etip
+{
+position: absolute;
+margin-left: 180px;
+margin-top: 180px;
+z-index: 9999;
+}
+
+#ftip
+{
+position: absolute;
+margin-left: 600px;
+margin-top: 80px;
+z-index: 9999;
+}
+
+#gtip
+{
+position: absolute;
+margin-left: 600px;
+margin-top: 170px;
+z-index: 9999;
+}
+
+#htip
+{
+position: absolute;
+margin-left: 640px;
+margin-top: 400px;
+z-index: 9999;
+}
+
+#itip
+{
+position: absolute;
+margin-left: 320px;
+margin-top: 180px;
+z-index: 9999;
+}
+
+
+.lightTip								{ width: 342px; }
+.lightTip .content				{ width: 310px; padding: 10px; border: 3px solid #e2e2e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; background: #ffffff; color: #000000; }
+.lightTip .bottom				{ height: 14px; background: url(../images/notch-white.png) top center no-repeat; }
+
