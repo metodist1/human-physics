@@ -1,0 +1,85 @@
+#mainwrapper {
+	font: 10pt normal Arial, sans-serif;
+}
+
+/* Стили блока */
+#mainwrapper .box {
+	border: 4px solid #000000;
+	cursor: pointer;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	position: relative;
+	overflow: hidden;
+	width: 265px;
+}
+#mainwrapper .box img {
+	position: absolute;
+	left: 0;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+
+/* Обшие стили подписей */
+#mainwrapper .box .caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 300;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+}
+
+/** Подпись 4: Выскальзывание **/
+#mainwrapper .box .slide-caption {
+	width: 280px;
+	height: 300px;	
+	text-align: left;
+	padding: 30px;
+	left: 330px;
+	}
+/** Выскальзывающая подпись. Событие :hover **/
+#mainwrapper .box:hover .slide-caption {
+	background-color: rgba(0,0,0,1) !important;
+	-moz-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	opacity: 1;
+	transform: translateX(-100%);
+}
+#mainwrapper .box:hover img#image-4 {
+	-moz-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+	opacity: 1;
+}
+#mainwrapper p
+{
+width: 230px;
+height: auto;
+font-style: italic;
+}
+#mainwrapper h3
+{
+color: #ffffff;
+text-indent: 0px;
+}
+#mainwrapper a
+{
+color: #ffffff;
+text-decoration: none;
+}
+#mainwrapper a:hover
+{
+color: #ffffff;
+text-decoration: underline;
+}
+

@@ -1,0 +1,46 @@
+h2
+{
+margin: 10px 10px;
+color: #363636;
+background: #ffffff;
+text-indent: 40px;
+}
+
+#statts
+{
+width: 850px;
+height: auto;
+margin: -10px 0px 100px 170px;
+padding: 5px; 
+}
+#statts p
+{
+position: relative;
+width: auto;
+height: auto;
+margin:10px;
+text-align: justify;
+color: #E8E8E8;
+text-indent: 15px;
+}
+#statts ul, ol
+{
+color: #E8E8E8;
+}
+
+#imgstatts
+{
+float:left;
+position: relative;
+margin:10px;
+width: 200px;
+height: 200px;
+}
+
+#imgstattsb
+{
+position:relative;
+margin:10px;
+width: 820px;
+height: auto;
+}

@@ -1,0 +1,38 @@
+#footer
+{
+width:100%;
+height: 62px;
+background: #111111;	
+font-size: 8pt;
+color: #6e6e6e;	
+clear: both;
+display: block;
+z-index: 9999;
+	position: fixed; 
+    left: 0; bottom: 0; 
+	
+}
+
+#footer2
+{
+position:absolute;
+margin-left: 350px;
+margin-top: -10px;
+}
+
+#footer3
+{
+position:absolute;
+margin-left: 550px;
+margin-top: 15px;
+text-align: left;
+}
+#footer3 a
+{
+color: #6e6e6e;
+text-decoration: none;
+}
+#footer3 a:hover
+{
+color: #ffffff;
+}

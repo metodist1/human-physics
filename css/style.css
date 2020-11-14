@@ -1,0 +1,91 @@
+::-moz-selection {
+background: #2F4F4F; 
+}
+body
+{
+background: #1c1c1c url('img/bg.png') left top repeat-x; 
+font-family: arial; sans-serif;
+font-size: 10pt;
+}
+
+h2
+{
+margin: 10px 10px;
+color: #363636;
+background: white;
+text-indent: 40px;
+}
+
+h3
+{
+color: #ffffff;
+text-indent: 25px;
+}
+
+#vid 
+{
+margin-left: 10px;
+}
+
+.uniform-bg {
+background: white;
+position:relative;
+outline: #FFFFF;
+-moz-outline-offset:-0.04em;
+
+}
+.uniform-bg span {
+position:relative;
+}
+
+
+#head 
+{
+position: relative;
+margin: 0 auto;
+width: 1024px;
+height: 150px;
+}
+#nazva
+{
+position: relative;
+width:200px;
+height: 100px;
+margin-left: 100px;
+margin-top: 25px;
+font-size: 21pt;
+font-weight: bold;
+text-align: left;
+
+}
+#nazva a
+{
+text-decoration: none;
+color: #ffffff;
+}
+#nazva a:hover
+{
+background: #4F4F4F;
+position:relative;
+outline: #FFFFF;
+-moz-outline-offset:-0.04em;
+ color: #ffffff;
+ }
+
+#page
+{
+
+position: fixced 1024;
+width: 1024px;
+height:auto;
+margin: auto;
+}
+
+#golovna
+{
+width: 850px;
+height: 800px;
+margin: -10px 0px 100px 170px;
+padding: 5px; 
+}
+
